@@ -30,23 +30,54 @@
       </button>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
+        <div class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <div class="btn-group">
+            <a href="./index.html" id="navbarDropdownMenuLink"
+              class="btn btn-secondary btn-lg nav-link text-muted" role="button"
+              aria-pressed="true">About Me</a>
+            <button type="button"
+              class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only"></span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item"
+                href="https://github.com/melissa-clothilde">GitHub</a>
+              <a class="dropdown-item"
+                href="https://linkedin.com/in/melissa-elie">LinkedIn</a>
+              <a class="dropdown-item" href="Coming soon.pdf">Resume</a>
+            </div>
+
+            <div class="btn-group">
+              <a href="./portfolio.html" id="navbarDropdownMenuLink"
+                class="btn btn-secondary btn-lg nav-link" role="button"
+                aria-pressed="true">Portfolio</a>
+              <button type="button"
+                class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <span class="sr-only"></span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://melissa-clothilde.github.io/Eater/">Eater</a>
+                <a class="dropdown-item" href="https://melissa-clothilde.github.io/work-day-scheduler/">A Work Day Planner</a>
+                <a class="dropdown-item" href="https://melissa-clothilde.github.io/password-generator/">Password Generator</a>
+              </div>
+
+
+              <div class="btn-group">
+                <a href="./contact.html" id="navbarDropdownMenuLink"
+                  class="btn btn-secondary btn-lg nav-link" role="button"
+                  aria-pressed="true">Contact</a>
+              </div>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+        </div>
       </div>
-      <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
   </nav>
-
 
   <!-- Containter -->
   <main class="container">
@@ -54,8 +85,8 @@
       <div class="col-md-8">
         <br>
         <article class="block">
-          <h2 class="block-header text-muted font-weight-light">About Me</h2>
-          <hr/>
+          <h2 class="block-header font-weight-light">About Me</h2>
+          <hr />
         </article>
 
         <img src="./0.jpeg" id="picture">
@@ -72,11 +103,13 @@
     </section>
   </main>
   <!-- End of main section -->
-  
+
   <footer class="footer">
     <div class="footer-div">
       <p class="text-muted text-muted-footer text-center">&copy; Copyright</p>
     </div>
+    <br><br>
+    <br><br><br><br><br>
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

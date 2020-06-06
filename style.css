@@ -1,50 +1,7 @@
-/* .Melissa {
-    float: left;
-    width: 250px;
-    height: 91px;
-    background: #4aaaa5;
-    color: #ffffff;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    text-decoration: none;
-    padding-top: 12px;
+.navbar-expand-lg {
+    border-bottom: solid 1px #addad7;
+    padding-bottom: 0;
 }
-
-.links {
-    float: right;
-    margin-top: 25px;
-    
-}
-
-.links a {
-    text-decoration: none;
-    color: #777777;
-    font-size: 20px;
-    margin-left: 10px;
-    padding-left: 10px;
-    line-height: 18px;
-    margin-right: 10px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-@media screen and (max-width: 980px) {
-
-}
-
-@media screen and (max-width: 768px) {
-    
-}
-
-@media screen and (max-width: 640px) {
-    
-} */
 
 #picture {
     float: left;
@@ -59,4 +16,52 @@ ul {
     height: 60px;
     bottom: 0;
     padding-top: 20px;
+    border-top: solid 1px #addad7;
+}
+
+#logo {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #81b6b2;
+}
+
+.nav-link, .dropdown-toggle-split {
+    background: #f8f9fa;
+    border: #6c757d;
+    color: #cad1d6;
+    font-size: 17px;
+}
+
+hr {
+    border-color: #addad7;
+}
+
+.btn-group > a:hover {
+    background-color:#addad7;
+}
+
+.btn-group > button:hover {
+    background-color:#addad7;
+}
+
+/* .btn.btn-success.active.focus {
+    background-color:#addad7;
+} */
+
+h2 {
+    color: #818d97;
+    font-size: 25px;
+}
+
+.links {
+    color: #818d97;
+}
+
+div.container {
+    height: 70px;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #81b6b2;
 }

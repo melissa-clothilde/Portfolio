@@ -9,11 +9,11 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    class="link-style" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous">
 
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" class="link-style" href="./style.css">
 
   <title>Portofilio</title>
 </head>
@@ -22,7 +22,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand h1" href="index.html" id="logo">Melissa Elie</a>
+      <a class="navbar-brand h1" class="link-style" href="index.html" id="logo">Melissa Elie</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -32,13 +32,14 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="./index.html">About Me</a>
+            <a class="nav-link dropdown-toggle" class="link-style" href="./index.html">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-link dropdown-toggle"
+              class="link-style" href="./portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
+            <a class="nav-link" class="link-style" href="./contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -53,8 +54,8 @@
       <div class="col-md-8">
         <br>
         <article class="block">
-          <h2 class="block-header text-muted font-weight-light">Portfolio</h2>
-          <hr />
+          <h2 class="block-header font-weight-light">Portfolio</h2>
+          <hr/>
         </article>
       </div>
     </section>
@@ -63,38 +64,38 @@
   <main class="container">
     <section class="row">
       <div class="col-md-8">
+       
         <article class="block align-left">
-          <img src="./images/trivia-game.jpg"
-            class="rounded float-left text-left img-fluid" alt="trivia game">
-          <img src="./images/rpg-game.jpg"
-            class="rounded float-right text-left img-fluid" alt="rpg game">
+          <img src="./images/Eater.ScreenShot.png"
+            class="rounded float-left text-left img-fluid" alt="Eater">
         </article>
-  </main>
-  </section>
-  <br><br>
-  <main class="container">
-    <section class="row">
-      <div class="col-md-8">
-        <article class="block">
-          <img src="./images/hangman.jpg"
-            class="rounded float-left align-left img-fluid" alt="hangman">
-          <img src="./images/rock-paper-scissors.jpg"
+        <p class="links">Eater Links:
+          <a class="link-style" href="https://melissa-clothilde.github.io/Eater/">Deployed Version, </a>
+          <a class="link-style" href="https://github.com/melissa-clothilde/Eater">GitHub repository</a>
+        </p>
+
+        <article>
+          <img src="./images/Scheduler.ScreenShot.png"
             class="rounded float-right text-left img-fluid"
-            alt="rock paper scissors">
+            alt="Work Day Scheduler">
         </article>
+        <p class="links">Work Day Scheduler Links:
+          <a class="link-style" href="https://melissa-clothilde.github.io/work-day-scheduler/">Deployed Version, </a>
+          <a class="link-style" href="https://github.com/melissa-clothilde/work-day-scheduler">GitHub repository</a>
+        </p><br>
+        
+        <article class="block">
+          <img src="./images/PasswordGenerator.ScreenShot.png"
+            class="rounded float-left align-left img-fluid"
+            alt="Password Generator">
+        </article>
+        <p class="links">Password Generator Links:
+          <a class="link-style" href="https://melissa-clothilde.github.io/password-generator/">Deployed Version, </a>
+          <a class="link-style" href="https://github.com/melissa-clothilde/password-generator">GitHub repository</a>
+        </p>
     </section>
   </main>
   <br><br>
-  <main class="container">
-    <section class="row">
-      <div class="col-md-4">
-        <article class="block">
-          <img src="./images/rutgers-info-widget.jpg"
-            class="rounded float-left text-left img-fluid"
-            alt="rutgers info widget">
-        </article>
-    </section>
-  </main>
   <br><br><br><br><br>
   <!-- End of main sections -->
   <footer class="footer">
