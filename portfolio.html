@@ -19,31 +19,58 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand h1" class="link-style" href="index.html" id="logo">Melissa Elie</a>
+      <!--********** Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand h1" href="index.html" id="logo">Melissa Elie</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- Collect the nav links, forms, and other content for toggling -->
+      <!-- *************Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link dropdown-toggle" class="link-style" href="./index.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link dropdown-toggle"
-              class="link-style" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" class="link-style" href="./contact.html">Contact</a>
-          </li>
-        </ul>
+        <div class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <div class="btn-group">
+            <a href="./index.html" class="navbarDropdownMenuLink btn btn-secondary btn-lg nav-link" role="button"
+              aria-pressed="true">About Me</a>
+            <button type="button"
+              class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+              data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <span class="sr-only"></span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://github.com/melissa-clothilde">GitHub</a>
+              <a class="dropdown-item" href="https://linkedin.com/in/melissa-elie">LinkedIn</a>
+              <a class="dropdown-item" href="resume.pdf">Resume</a>
+            </div>
+
+            <div class="btn-group">
+              <a href="./portfolio.html" class="navbarDropdownMenuLink btn btn-secondary btn-lg nav-link" role="button"
+                aria-pressed="true">Portfolio</a>
+              <button type="button"
+                class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <span class="sr-only"></span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://melissa-clothilde.github.io/Eater/">Eater</a>
+                <a class="dropdown-item" href="https://melissa-clothilde.github.io/work-day-scheduler/">A Work Day Planner</a>
+                <a class="dropdown-item" href="https://melissa-clothilde.github.io/password-generator/">Password Generator</a>
+              </div>
+
+
+              <div class="btn-group">
+                <a href="./contact.html" class="navbarDropdownMenuLink btn btn-secondary btn-lg nav-link" role="button"
+                  aria-pressed="true">Contact</a>
+              </div>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+        </div>
       </div>
-      <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
   </nav>
