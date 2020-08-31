@@ -1,0 +1,12 @@
+#connect {
+  text-align: right;
+}
+.social {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  border-radius: 30%;
+  display: block;
+  margin: 5px;
+  left: 54%;
+}

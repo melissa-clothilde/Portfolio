@@ -19,17 +19,18 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <a class="navbar-brand h1" href="index.html" id="logo">Melissa Elie</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse"
-        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+        data-target="#navbarToggler" aria-controls="navbarToggler"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <div class="collapse navbar-collapse" id="navbarToggler">
         <div class="navbar-nav ml-auto mt-2 mt-lg-0">
           <div class="btn-group">
             <a href="./index.html" id="navbarDropdownMenuLink"
@@ -84,45 +85,57 @@
                   aria-pressed="true">Contact</a>
               </div>
             </div>
-            <!-- /.navbar-collapse -->
+
           </div>
         </div>
       </div>
     </div>
-    <!-- /.container -->
-  </nav>
+
+
+  </header>
 
   <!-- Containter -->
-  <main class="container">
+  <div class="main-container">
     <section class="row">
-      <div class="col-md-8">
+      <!-- <div class="col-md-8">
         <br>
-        <article class="block">
-          <h2 class="block-header font-weight-light">About Me</h2>
-          <hr />
-        </article>
+        <article class="block"> -->
+      <h1 class="block-header font-weight-light">About Me</h1>
+      <!-- <hr /> -->
+      <!-- </article> -->
 
-        <img src="./0.jpeg" id="picture">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-          fugit assumenda excepturi molestiae necessitatibus at suscipit nam
-          corporis impedit eveniet ullam unde, sit, temporibus deleniti
-          laboriosam tenetur culpa a dolorum.</p>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-          fugit assumenda excepturi molestiae necessitatibus at suscipit nam
-          corporis impedit eveniet ullam unde, sit, temporibus deleniti
-          laboriosam tenetur culpa a dolorum.</p>
-      </div>
+      <img src="./0.jpeg" id="picture">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        fugit assumenda excepturi molestiae necessitatibus at suscipit nam
+        corporis impedit eveniet ullam unde, sit, temporibus deleniti
+        laboriosam tenetur culpa a dolorum.</p>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        fugit assumenda excepturi molestiae necessitatibus at suscipit nam
+        corporis impedit eveniet ullam unde, sit, temporibus deleniti
+        laboriosam tenetur culpa a dolorum.</p>
+      <!-- </div> -->
     </section>
-  </main>
+  </div>
+
+  <section class="sidebar">
+    <div id="connect">
+      <h2>Connect with Me</h2>
+
+      <img src="images/icon-github.png" class="social" alt="GitHub">
+      <img src="images/icon-linkedin.png" class="social" alt="GitHub">
+      <img src="images/icon-stackoverflow.png" class="social" alt="GitHub">
+    </div>
+  </section>
+  </div>
+
+
   <!-- End of main section -->
 
   <footer class="footer">
-    <div class="footer-div">
-      <p class="text-muted text-muted-footer text-center">&copy; Copyright</p>
+    <div class="container text-muted text-muted-footer text-center">
+      &copy; Copyright 2020 Melissa Elie
     </div>
-    <br><br>
-    <br><br><br><br><br>
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

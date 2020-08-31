@@ -1,0 +1,27 @@
+hero-body {
+  height: 10px;
+}
+
+.about {
+  position: relative;
+  top: 50px;
+  font-family: 'Rancho', cursive;
+  font-size: 50px;
+}
+.fist-cont {
+  position: relative;
+  top: 30px;
+  /* background-image: url(../../images/floral.jpg); */
+  padding: 20px;
+  padding-left:0;
+  width: 100%;
+}
+
+.profile {
+  border-radius: 5%;
+  text-align: center;
+  /* border: 6px solid; */
+  /* border-color: rgb(218, 213, 230); */
+  
+}
+
