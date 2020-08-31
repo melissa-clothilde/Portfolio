@@ -2,15 +2,15 @@ import React from "react";
 import 'react-bulma-components/dist/react-bulma-components.min.css';
 import { Container, Columns } from 'react-bulma-components';
 import "./About.css";
-import profile from "../../images/profile.jpg";
-import Foot from "../Foot";
-import Connect from "../Connect/index";
+import profile from "../../../images/profile.jpg";
+import Foot from "../../Foot/index";
+import Connect from "../../Connect/index";
 
 function About() {
   return (
     <React.Fragment>
       <Container>
-      <h1 className="about">About Me</h1>
+      <h1 className="page-title">About Me</h1>
       </Container>
       <Container className="fist-cont">
         <Columns>

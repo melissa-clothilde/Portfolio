@@ -1,14 +1,14 @@
 import React from "react";
 import 'react-bulma-components/dist/react-bulma-components.min.css';
 import { Container, Columns } from 'react-bulma-components';
-import Connect from "../Connect/index";
-import Foot from "../Foot";
+import Connect from "../../Connect/index";
+import Foot from "../../Foot/index";
 
 function Portfolio() {
   return (
     <React.Fragment>
       <Container>
-        <h1 className="about">Portfolio</h1>
+        <h1 className="page-title">My Portfolio</h1>
       </Container>
       <Container className="fist-cont">
         <Columns>

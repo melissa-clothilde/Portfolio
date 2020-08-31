@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Container, Footer, Content, Hero } from 'react-bulma-components';
+import "./style.css";
 
-export class Foot extends Component {
-  render() {
-    return (
-      <Hero size="medium">
+function Foot() {
+  return (
+    <Hero size="medium">
       <Hero.Head renderAs="header" />
       <Hero.Body className="hero-body" />
       <Hero.Footer>
@@ -12,15 +12,14 @@ export class Foot extends Component {
           <Container>
             <Content style={{ textAlign: 'center' }}>
               <p>
-              &copy; Copyright 2020 Melissa Elie
+                &copy; Copyright 2020 Melissa Elie
               </p>
             </Content>
           </Container>
         </Footer>
       </Hero.Footer>
     </Hero>
-    )
-  }
+  )
 }
 
 export default Foot
