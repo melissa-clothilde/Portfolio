@@ -10,8 +10,8 @@ function Connect() {
       <Columns.Column size={2} className="sidebar">
       <div id="connect">
         <h2>Connect</h2>
-        <img src={github} className="social" alt="GitHub" />
-        <img src={linkedin} className="social" alt="LinkedIn" />
+        <img src={github} className="social" alt="GitHub" onClick="https://github.com/melissa-clothilde" />
+        <img src={linkedin} className="social" alt="LinkedIn" onClick="https://linkedin.com/in/melissa-elie"/>
         <img src={stackoverflow} className="social" alt="StackOverflow" />
       </div>
     </Columns.Column>
