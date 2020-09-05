@@ -6,16 +6,22 @@ import linkedin from "../../images/linkedin.png";
 import stackoverflow from "../../images/stackoverflow.png";
 
 function Connect() {
-    return (
-      <Columns.Column size={2} className="sidebar">
+  return (
+    <Columns.Column size={2} className="sidebar">
       <div id="connect">
         <h2>Connect</h2>
-        <img src={github} className="social" alt="GitHub" onClick="https://github.com/melissa-clothilde" />
-        <img src={linkedin} className="social" alt="LinkedIn" onClick="https://linkedin.com/in/melissa-elie"/>
+        <a href="https://github.com/melissa-clothilde" target="_blank" rel="noopener noreferrer">
+          <img src={github} className="social" alt="GitHub" />
+        </a>
+        <a href="https://linkedIn.com/in/melissa-elie" target="_blank" rel="noopener noreferrer">
+        <img src={linkedin} className="social" alt="linkedIn" />
+        </a>
+        <a href="/#" target="_blank" rel="noopener noreferrer">
         <img src={stackoverflow} className="social" alt="StackOverflow" />
+        </a>
       </div>
     </Columns.Column>
-    )
+  )
 }
 
 export default Connect;
