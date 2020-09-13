@@ -1,0 +1,19 @@
+#connect {
+  font-family: 'Rancho', cursive;
+  font-size: 27px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  width: 140px;
+}
+.social {
+ 
+  height: 60px;
+  width: 60px;
+  border-radius: 30%;
+  margin: 5px;
+}
+
+p {
+  color: black;
+}

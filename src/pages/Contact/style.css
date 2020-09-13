@@ -1,0 +1,14 @@
+.center {
+  margin-top: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+  background: white;
+  padding: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.connect-box-2 {
+  margin-top: 100px;
+}

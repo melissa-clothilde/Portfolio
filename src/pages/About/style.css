@@ -1,0 +1,46 @@
+hero-body {
+  height: 10px;
+}
+
+.page-title {
+  position: relative;
+  top: 50px;
+  font-family: 'Rancho', cursive;
+  font-size: 50px;
+}
+.fist-cont {
+  position: relative;
+  top: 30px;
+  /* background-image: url(../../images/floral.jpg); */
+  padding-left:0;
+  width: 100%;
+}
+
+.section {
+  padding: 150px;
+}
+
+.connect-box {
+  margin-top: 160px;
+}
+
+
+.profile {
+  border-radius: 5%;
+  text-align: center;
+  /* border: 6px solid; */
+  /* border-color: rgb(218, 213, 230); */
+  
+}
+
+.prof-box {
+  width: 440px;
+  padding: 20px;
+}
+
+.para {
+  position: relative;
+  top: 80px;
+
+}
+
