@@ -25,24 +25,24 @@ function NavBar() {
             <Link to="/portfolio" className="navbar-link">
               Portfolio
             </Link>
-            <div className="navbar-dropdown">
-              <a className="navbar-item">
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
                 About
               </a>
-              <a className="navbar-item">
+              <a class="navbar-item">
                 Jobs
               </a>
-              <a className="navbar-item">
+              <a class="navbar-item">
                 Contact
               </a>
-              <hr className="navbar-divider"></hr>
-              <a className="navbar-item">
+              <hr class="navbar-divider"></hr>
+              <a class="navbar-item">
                 Report an issue
               </a>
             </div>
           </div>
           </div>
-          <div className="navbar-end">
+          <div class="navbar-end">
             <Link to="/contact" className="navbar-item">
               Contact Me
           </Link>

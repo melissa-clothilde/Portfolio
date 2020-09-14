@@ -12,6 +12,17 @@ body {
   font-weight: bold;
 }
 
+.link-css {
+  text-decoration: none;
+  color: white;
+}
+
+
+.link-css:hover {
+  color: white;
+}  
+
+
 .cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

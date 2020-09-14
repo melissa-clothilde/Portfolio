@@ -8,7 +8,7 @@ function PortfolioGrid() {
     <div>
       <section className='cards'>
         {portfolioArray.map((item) => (
-          <PortfolioItem key={item.char_id} item={item}></PortfolioItem>
+          <PortfolioItem key={item.id} item={item}></PortfolioItem>
         ))}
       </section>
     </div>
