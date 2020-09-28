@@ -10,9 +10,10 @@ import EaterPage from "./pages/Eater";
 
 function App() {
   return (
-    <Router>
-      <div>
-     
+    
+       <div id="page-container">
+        <div id="content-wrap">
+        <Router>
         <Route exact path="/" component={About} />
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
@@ -20,8 +21,10 @@ function App() {
         <Route path="/happilyWoke" component={HappilyWokePage} />
         <Route path="/RabbitHole" component={RabbitHolePage} />
         <Route path="/Eater" component={EaterPage} />
+        </Router>
       </div>
-    </Router>
+      </div>
+    
   );
 }
 
