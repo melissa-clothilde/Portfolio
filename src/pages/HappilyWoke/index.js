@@ -17,7 +17,7 @@ function HappilyWokePage() {
         <div className="title has-text-centered">happily Woke</div>
       
         <div className="subtitle is-6 has-text-centered">
-          <p>Code: <a href="https://github.com/Leon0917/final-project">https://github.com/Leon0917/final-project</a> </p>
+          <p>Code: <a href="https://github.com/melissa-clothilde/happily-woke">https://github.com/melissa-clothilde/happily-woke</a> </p>
         Deployed: <a href="https://arcane-chamber-66986.herokuapp.com/">https://arcane-chamber-66986.herokuapp.com/</a></div>
         <figure className="image">
           <img src={HW1} alt="HappilyWoke1" />

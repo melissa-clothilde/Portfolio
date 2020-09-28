@@ -5,7 +5,7 @@ import "./style.css";
 function NavBar() {
   const [isActive, setisActive] = useState(false);
   return (
-    <div>
+    <nav className="is-fixed-top">
       <nav className="navbar is-mobile">
 
         <div className="navbar-brand">
@@ -21,7 +21,6 @@ function NavBar() {
             onClick={() => {
               setisActive(!isActive);
             }}
-            href="/"
             role="button"
             className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
             aria-label="menu"
@@ -34,7 +33,7 @@ function NavBar() {
         </div>
         <div id="navbarExampleTransparentExample navbar-toggle "
           className={`navbar-menu ${isActive ? "is-active" : ""}`}>
-            <Link to="/about" className="navbar-item navbar-center">
+            <Link to="/about" className="navbar-item navbar-center about-burger">
               About
           </Link>
 
@@ -62,7 +61,7 @@ function NavBar() {
 
           </div>
       </nav>
-    </div>
+    </nav>
   );
 }
 

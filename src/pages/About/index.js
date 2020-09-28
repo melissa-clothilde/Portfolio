@@ -20,7 +20,7 @@ function About() {
         <div className="column text-col">
           <span className="subtitle">Frontend Web Developer with a background in governmental and nonprofit work within underrepresented communities. Develops and maintains robust, user-centered applications characterized by clean, responsive user interfaces. 
           <br></br><br></br>
-          A problem-solver committed to incorporating civic engagement in daily work.
+          A problem-solver committed to civic engagement.
           </span>
         </div>
               
