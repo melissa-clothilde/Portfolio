@@ -8,38 +8,26 @@ import Connect from "../../components/Connect/index";
 function About() {
   return (
     <React.Fragment>
-       <NavBar />
-      <div className="section">
-      <div className="container cont-pad">
-
-        <div className="columns">
-          <div className="column">
-            <div className="box prof-box ">
-              <img src={profile} alt="profile" className="profile" />
-            </div>
-          </div>
-          <div className="column">
-            <div className="rows">
-              
-                <div className="box para">Frontend Web Developer with a background in governmental and nonprofit work within underrepresented communities. Develops and maintains robust, user-centered applications characterized by clean, responsive user interfaces. 
-            
-                An effective and curious problem-solver committed to incorporating civic engagement in daily work.
-                </div>
-              
-              
-                <div className="connect-box">
-                  <Connect />
-                 </div>
-            
-            </div>
-          </div>
+      <NavBar />   
+      <div className="columns is-centered is-vcentered">
+        <div className="column">
+        <figure className="image">
+          <img src={profile} alt="profile" className="is-rounded" />
+          </figure>
         </div>
-        
+          
+              
+        <div className="column">
+          <span className="subtitle">Frontend Web Developer with a background in governmental and nonprofit work within underrepresented communities. Develops and maintains robust, user-centered applications characterized by clean, responsive user interfaces. 
+          <br></br><br></br>
+          A problem-solver committed to incorporating civic engagement in daily work.
+          </span>
+        </div>
+              
       </div>
-
+      <div className="connect-box">
+        <Connect />
       </div>
-
-
       <Foot />
 
     </React.Fragment>

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css";
-import github from "../../images/github.png";
-import linkedin from "../../images/linkedin.png";
+import github from "../images/github.png";
+import linkedin from "../images/linkedin.png";
 
 function Connect() {
   return (

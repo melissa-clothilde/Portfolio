@@ -1,9 +1,12 @@
 .foot {
-  background: white;
-  padding: 34px;
-  margin-top: 20px;
+  display: flex;
+  min-height: 9vh;
+  flex-direction: column;
+  margin-top: 50px;
 }
-
+.foot-content {
+  flex: 1;
+}
 .content {
   text-align: center;
 }

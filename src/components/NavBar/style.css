@@ -1,17 +1,37 @@
 .navbar {
-  padding:20px;
+  border-bottom: 1px solid #dbdbdb;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   color: #4a4a4a;
-  font-size: 20px;
   font-weight: bold;
   text-decoration: none;
 }
 
 .navbar-item {
   color: #4a4a4a;
-  font-size: 20px;
+  font-size: 17px;
+} */
+
+.navbar .navbar-brand {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.navbar .navbar-brand > .navbar-item,
+.navbar .navbar-brand .navbar-link {
+  display: inline-block;
+}
+
+.navbar-item.navbar-center {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#navbarExampleTransparentExample {
+  margin: auto;
 }
 
 .left {
@@ -29,35 +49,14 @@
   font-size: 45px;
 }
 
-/* <Container classNamev nav-bar">
-      <div classNamevbar-brand">
-        <Link to="/" classNamecation.pathname === "/" ? "nav-item active" : "nav-item"}>
-          Melissa Elie
-        </Link>
-      </div>
-      <div classNamev-item right">
-        <Link
-          to="/about"
-          classNamecation.pathname === "/about" ? "nav-link active" : "nav-link"}
-        >
-          About
-        </Link>
-      </div>
-      <div classNamev-item right">
-        <Link
-          to="/portfolio"
-          classNamecation.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-        >
-          Portfolio
-        </Link>
-      </div>
-      <div classNamev-item right">
-        <Link
-          to="/contact"
-          classNamecation.pathname === "/contact" ? "nav-link active" : "nav-link"}
-        >
-          Contact
-        </Link>
-      </div>
+.my-name {
+  font-size: 45px;
+}
 
-    </Container> */
+/* .my-name:hover{
+  color: #4a4a4a;
+} */
+
+a {
+  text-decoration: none;
+}

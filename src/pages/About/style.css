@@ -33,14 +33,11 @@ hero-body {
   
 }
 
-.prof-box {
-  width: 440px;
-  padding: 20px;
+.is-vcentered {
+  margin-top: 15px;
+  padding: 15px;
 }
 
-.para {
-  position: relative;
-  top: 80px;
 
-}
+
 

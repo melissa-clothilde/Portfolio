@@ -1,20 +1,15 @@
-import React from 'react'
+import React from "react";
 import "./style.css";
-
 function Foot() {
   return (
-
-    <div className="foot">
-     
-        <div className="content">
-          <p>
-            &copy; Copyright 2020 Melissa Elie
-              </p>
-        </div>
-      
-    </div>
-
-  )
+    <footer className="footer foot is-fixed-bottom">
+      <div className="foot-content">
+      <div className="content has-text-centered">
+        <p>&copy; 2020 Melissa Elie</p>
+      </div>
+      </div>
+    </footer>
+  );
 }
 
-export default Foot
+export default Foot;

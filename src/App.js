@@ -4,8 +4,9 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import "./App.css";
-// import profile from "./images/profile.jpg";
-
+import HappilyWokePage from "./pages/HappilyWoke";
+import RabbitHolePage from "./pages/RabbitHole";
+import EaterPage from "./pages/Eater";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
+        <Route path="/happilyWoke" component={HappilyWokePage} />
+        <Route path="/RabbitHole" component={RabbitHolePage} />
+        <Route path="/Eater" component={EaterPage} />
       </div>
     </Router>
   );

@@ -1,13 +1,13 @@
 import React from "react";
 import Connect from "../../components/Connect";
 import Foot from "../../components/Foot";
-import PortfolioGrid from "../../components/PortfolioGrid";
+import PortfolioGrid from "../../components/PortfolioGrid/index";
 import NavBar from "../../components/NavBar"
 
 function Portfolio() {
   
   return (
-    <div>
+    <React.Fragment>
              <NavBar />
       <div className="container">
         <PortfolioGrid />
@@ -16,7 +16,7 @@ function Portfolio() {
         </div>
       </div>
     <Foot />
-    </div>
+    </React.Fragment>
   );
 }
 
