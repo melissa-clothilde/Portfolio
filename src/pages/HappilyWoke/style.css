@@ -1,8 +1,11 @@
-.large-grid {
-  /* display: grid;
-  height: 200px;
-  grid-template-columns: 200px;
-  grid-template-rows: repeat(3, 1fr);
-  row-gap: 20px; */
+img {
+  margin-bottom: 50px;
+}
 
+.title {
+  margin-top: 20px;
+}
+
+.subtitle {
+  margin-top: 20px;
 }

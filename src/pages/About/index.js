@@ -12,12 +12,12 @@ function About() {
       <div className="columns is-centered is-vcentered">
         <div className="column">
         <figure className="image">
-          <img src={profile} alt="profile" className="is-rounded" />
+          <img src={profile} alt="profile" className="is-rounded profile" />
           </figure>
         </div>
           
               
-        <div className="column">
+        <div className="column text-col">
           <span className="subtitle">Frontend Web Developer with a background in governmental and nonprofit work within underrepresented communities. Develops and maintains robust, user-centered applications characterized by clean, responsive user interfaces. 
           <br></br><br></br>
           A problem-solver committed to incorporating civic engagement in daily work.

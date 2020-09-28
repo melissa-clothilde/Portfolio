@@ -2,32 +2,16 @@ hero-body {
   height: 10px;
 }
 
-.page-title {
-  position: relative;
-  top: 50px;
-  font-family: 'Rancho', cursive;
-  font-size: 50px;
-}
-.fist-cont {
-  position: relative;
-  top: 30px;
-  /* background-image: url(../../images/floral.jpg); */
-  padding-left:0;
-  width: 100%;
-}
-
-.section {
-  padding: 150px;
-}
-
 .connect-box {
-  margin-top: 160px;
+  margin-top: 70px;
 }
 
 
 .profile {
   border-radius: 5%;
   text-align: center;
+  max-width: 500px;
+  max-height: 584px;
   /* border: 6px solid; */
   /* border-color: rgb(218, 213, 230); */
   
@@ -35,7 +19,13 @@ hero-body {
 
 .is-vcentered {
   margin-top: 15px;
-  padding: 15px;
+  padding: 25px;
+  margin: 25px;
+}
+
+.text-col {
+  position: relative;
+  bottom: 40px;
 }
 
 
