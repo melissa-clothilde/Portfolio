@@ -17,3 +17,16 @@
 p {
   color: black;
 }
+
+
+@media (max-width: 768px) {
+  #connect {
+    position: relative;
+    font-family: 'Rancho', cursive;
+    font-size: 27px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    width: 140px;
+  }
+}

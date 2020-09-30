@@ -16,6 +16,16 @@ hero-body {
   
 }
 
+.profile-div {
+  float: right;
+  width: 300px;
+  margin-top: 60px;
+}
+
+.max-width {
+  max-width: 450px;
+}
+
 .is-vcentered {
   margin-top: 20px;
   padding-right: 25px;
@@ -27,32 +37,32 @@ hero-body {
 }
 
 .text-col {
-  padding: 7px;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 100px;
 }
 
 .box{
   border-radius: 20px;
   float: right;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   text-align: center;
 
 }
-
-/* .is-horizontal-center {
-  justify-content: center;
-
+/* .max-width {
+  max-width: 450px;;
 } */
-.max-width {
-  max-width: 500px;;
+
+@media (max-width: 768px) {
+  .profile-div {
+    float: left;
+    max-width: 240px;
+  }
+
+  .text-col {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 }
-
-img {
-  float: right;
-}
-
-
-
-
-
-
-

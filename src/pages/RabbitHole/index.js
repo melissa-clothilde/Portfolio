@@ -18,7 +18,7 @@ function RabbitHolePage() {
         <div className="title has-text-centered">Rabbit Hole</div>
       
         <div className="subtitle is-6 has-text-centered">
-          <p>Code: <a href="https://github.com/maquispe/Project-2">https://github.com/maquispe/Project-2</a> </p>
+          <p>Code: <a href="https://github.com/melissa-clothilde/Rabbit-Hole">https://github.com/melissa-clothilde/Rabbit-Hole</a> </p>
         Deployed: <a href="https://discover-rabbit-hole.herokuapp.com/">https://discover-rabbit-hole.herokuapp.com/</a></div>
         <figure className="image">
           <img src={RH1} alt="RabbitHole1" />

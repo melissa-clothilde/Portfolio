@@ -11,7 +11,7 @@ function About() {
       <NavBar />   
       <div className="columns is-centered is-vcentered">
         <div className="column max-width">
-        <figure className="image">
+        <figure className="profile-div image">
           <img src={profile} alt="profile" className="is-rounded profile" />
           </figure>
         </div>
