@@ -10,6 +10,7 @@ function Portfolio() {
     <React.Fragment>
              <NavBar />
       <div className="container">
+        <p className="has-text-centered">Please click on an app to view content.</p>
         <PortfolioGrid />
         <div className="connect-box">
         <Connect />

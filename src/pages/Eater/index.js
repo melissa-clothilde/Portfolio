@@ -18,7 +18,12 @@ function EaterPage() {
       
         <div className="subtitle is-6 has-text-centered">
           <p>Code: <a href="https://github.com/melissa-clothilde/Eater">https://github.com/melissa-clothilde/Eater</a> </p>
-        Deployed: <a href="https://melissa-clothilde.github.io/Eater/">https://melissa-clothilde.github.io/Eater/</a></div>
+       <p>Deployed: <a href="https://melissa-clothilde.github.io/Eater/">https://melissa-clothilde.github.io/Eater/</a>
+       </p>
+          <br></br>
+          <p>A app that provides select recipes based on current weather, and recipe and ingredient searches.</p>
+          <p>Techologies used: HTML, Javascript, CSS, Geolocation, jQuery</p>
+       </div>
         <figure className="image">
           <img src={E1} alt="Eater1" />
         </figure>

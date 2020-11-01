@@ -17,8 +17,13 @@ function HappilyWokePage() {
         <div className="title has-text-centered">happily Woke</div>
       
         <div className="subtitle is-6 has-text-centered">
-          <p>Code: <a href="https://github.com/melissa-clothilde/happily-woke">https://github.com/melissa-clothilde/happily-woke</a> </p>
-        Deployed: <a href="https://arcane-chamber-66986.herokuapp.com/">https://arcane-chamber-66986.herokuapp.com/</a></div>
+          <p>Code: <a href="https://github.com/melissa-clothilde/happily-woke">https://github.com/melissa-clothilde/happily-woke</a> 
+          </p>
+        <p>Deployed: <a href="https://arcane-chamber-66986.herokuapp.com/">https://arcane-chamber-66986.herokuapp.com/</a>
+          </p>
+          <br></br>
+          <p>News app that filters news stories by mood: positive, neutral, or negative.</p>
+          <p>Techologies used: React, Bulma, CSS, Node, Express, MongoDB </p></div>
         <figure className="image">
           <img src={HW1} alt="HappilyWoke1" />
         </figure>

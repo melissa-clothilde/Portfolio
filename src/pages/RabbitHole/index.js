@@ -19,7 +19,13 @@ function RabbitHolePage() {
       
         <div className="subtitle is-6 has-text-centered">
           <p>Code: <a href="https://github.com/melissa-clothilde/Rabbit-Hole">https://github.com/melissa-clothilde/Rabbit-Hole</a> </p>
-        Deployed: <a href="https://discover-rabbit-hole.herokuapp.com/">https://discover-rabbit-hole.herokuapp.com/</a></div>
+        <p>Deployed: <a href="https://discover-rabbit-hole.herokuapp.com/">https://discover-rabbit-hole.herokuapp.com/</a>
+        </p>
+        <br></br>
+          <p>An app that adds depth to music by displaying books related to searched artists and tracks searches.</p>
+          <p>Techologies used: HTML, Javascript, CSS, jQuery, Node, Express, Sequelize </p>
+        </div>
+        
         <figure className="image">
           <img src={RH1} alt="RabbitHole1" />
         </figure>
